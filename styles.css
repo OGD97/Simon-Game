@@ -6,12 +6,11 @@
 body {
   text-align: center;
   background-color: #011F3F;
-  height: 100vh;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin:  5%;
   color: #FEF2BF;
 }
@@ -31,7 +30,7 @@ body {
 }
 .container {
   display: block;
-  width: 50%;
+  width: 100%;
   margin: auto;
 
 }
@@ -39,8 +38,8 @@ body {
 .btn {
   margin: 0px;
   display: inline-block;
-  height: 175px;
-  width: 175px;
+  height: 200px;
+  width: 200px;
   border: 10px solid black;
   border-radius: 0%;
 }
@@ -88,7 +87,7 @@ body {
 
 
 footer {
-  margin: 3rem;
+  margin: 1rem;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Orange-Kid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
