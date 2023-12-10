@@ -1,6 +1,12 @@
+@font-face {
+  font-family: Orange-Kid;
+  src: url(fonts/orange-kid.ttf);
+}
+
 body {
   text-align: center;
   background-color: #011F3F;
+  height: 100vh;
 }
 
 #level-title {
@@ -33,8 +39,8 @@ body {
 .btn {
   margin: 0px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
   border: 10px solid black;
   border-radius: 0%;
 }
@@ -63,4 +69,40 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.website
+{
+  font-family: 'Orange-Kid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: .25s;
+}
+
+.website :hover
+{
+  letter-spacing: .25rem;
+  transition: .25s;
+}
+
+
+footer {
+  margin: 3rem;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Orange-Kid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.website {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: .25s;
+}
+
+footer .website:hover
+{
+  letter-spacing: .25rem;
+  transition: .25s;
 }
